@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: myfont;
+    src: url(../font/NS-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: myfont,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Poppins', sans-serif;;
+}
+
+.bg-blue{
+    background: #0f1d38;
+}
+ 
+.bg-danger2{
+    background: #FF556C;
+}
+
+.bg-purpal{
+    background: #5D3279;
+}
+
+.bg-danger4{
+    background: #1F172F;
+}
+
+
+/* banner section start */
+   .banner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+                url(../img/banner.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+   }
+
+   .top-10{
+    top: 10%;
+   }
+   
+   .top-15{
+    top: 15%;
+   }
+
+   .top-20{
+    top: 20%;
+   }
+
+   select{
+    width: 128px;
+    height: 38px;
+   }
+/* banner section end */
+
+/* media Query Section start */
+
+  @media screen and (max-width:575px) {
+    .top-15{
+        top: 10%;
+       }
+  }
+/* media Query Section end */
